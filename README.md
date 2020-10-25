@@ -54,3 +54,13 @@ sudo chmod u+x basic_setup.sh
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 . /opt/ros/ROS_VERSION/setup.bash
 ```
+
+9. Dependencies for building packages
+```bash
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo rosdep init
+rosdep update
+```
+
+
+
