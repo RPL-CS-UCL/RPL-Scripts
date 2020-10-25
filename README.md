@@ -10,7 +10,7 @@ Commonly used scripts
 
 1. Install basic GIT and cmake packages:
 ```bash
-sudo apt-get install git cmake cmake-curses-gui
+sudo apt-get install git cmake cmake-curses-gui terminator
 ```
 
 2. Configure GIT, with your own credentials:
