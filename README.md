@@ -51,7 +51,7 @@ sudo chmod u+x basic_setup.sh
 
 8. Add those, after adding your ROS version (kinetic,melodic) into your **.bashrc** file (thus updating your ENV variables) and restart the terminal (or `source ~/.bashrc`):
 ```bash
-echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/ROS_VERSION/setup.bash" >> ~/.bashrc
 . /opt/ros/ROS_VERSION/setup.bash
 ```
 
