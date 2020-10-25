@@ -41,3 +41,15 @@ parse_git_branch() {
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
+7. Install the basic dependencies
+```bash
+git clone https://github.com/rpl-as-ucl/scripts.git
+cd scripts
+sudo chmod u+x basic_setup.sh
+./basic_setup.sh
+```
+
+8. Add those, after adding your ROS version (kinetic,melodic) and the exact path to the robotology-setup.bash, into your **.bashrc** file (thus updating your ENV variables) and restart the terminal (or `source ~/.bashrc`):
+```bash
+. /opt/ros/ROS_VERSION/setup.bash
+```
