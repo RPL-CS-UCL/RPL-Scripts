@@ -55,7 +55,8 @@ echo "source /opt/ros/ROS_VERSION/setup.bash" >> ~/.bashrc
 . /opt/ros/ROS_VERSION/setup.bash
 ```
 
-9. Dependencies for building packages
+9. Dependencies for building packages.
+
 For python2 (in kinetic):
 ```bash
 sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
