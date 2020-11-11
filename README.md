@@ -56,13 +56,14 @@ echo "source /opt/ros/ROS_VERSION/setup.bash" >> ~/.bashrc
 ```
 
 9. Dependencies for building packages
+For python2 (in kinetic):
 ```bash
 sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 sudo rosdep init
 rosdep update
 ```
 
-For python3:
+For python3 (in noetic):
 ```bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo rosdep init
