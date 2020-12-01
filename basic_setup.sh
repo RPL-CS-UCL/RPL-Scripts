@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Configure your Ubuntu repositories to allow “restricted”, “universe”, and “multiverse”
+sudo add-apt repository restricted 
+sudo add-apt repository universe 
+sudo add-apt repository multiverse
+
+# Update
 sudo apt-get update
 
 # essential
@@ -44,9 +50,13 @@ if [ "`lsb_release -cs`" = 'focal' ]; then
 
 fi
 
+# Environment Setup
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
-# ROS config
-sudo apt-get -y --allow-unauthenticated install python-pip
-sudo apt-get -y --allow-unauthenticated install python-rosdep
+# Dependencies for building packages
+sudo apt install python-pip python-rosdep python-rosinstall python-rosinstall-generator python-wstool
+
+# Initialize rosdep
 sudo rosdep init
 rosdep update
