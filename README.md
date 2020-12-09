@@ -71,4 +71,12 @@ sudo rosdep init
 rosdep update
 ```
 
-
+# Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
+```bash
+sudo apt update
+sudo apt install dkms bc git
+git clone https://github.com/cilynx/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
+sudo dkms add ./rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959
+sudo dkms install -m rtl88x2bu -v 5.3.1
+sudo modprobe 88x2bu
+```
