@@ -71,6 +71,11 @@ sudo rosdep init
 rosdep update
 ```
 
+10. Video/Images Tools
+```bash
+sudo apt install gimp inkscape openshot handbrake
+```
+
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
 ```bash
 sudo apt update
