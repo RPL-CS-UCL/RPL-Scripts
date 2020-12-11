@@ -9,7 +9,7 @@ sudo add-apt repository multiverse
 sudo apt-get update
 
 # essential
-sudo apt-get install git cmake cmake-curses-gui build-essential gitg git-gui meld vim terminator mercurial libmatio-dev doxygen kazam kdevelop
+sudo apt-get install git cmake cmake-curses-gui build-essential gitg git-gui meld vim terminator mercurial libmatio-dev doxygen kazam kdevelop net-tools
 
 # ROS list and key
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
