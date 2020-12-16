@@ -29,7 +29,7 @@ if [ "`lsb_release -cs`" = 'xenial' ]; then
         sudo apt-get install ros-kinetic-joint-state*
 	sudo apt-get install ros-kinetic-combined-robot-hw
         sudo apt-get install ros-kinetic-control-* ros-kinetic-controller-* ros-kinetic-effort-controllers ros-kinetic-position-controllers
-        sudo apt-get install ros-kinetic-velocity-controllers ros-kinetic-twist-mux ros-kinetic-diff-drive-controller ros-kinetic-costmap-prohibition-layer ros-kinetic-moveit ros-kinetic-moveit-core ros-kinetic-teb-local-planner ros-kinetic-move-base ros-kinetic-moveit-kinematics ros-kinetic-robot-localization ros-kinetic-combined-robot-hw ros-kinetic-joint-limits-interface ros-kinetic-gmapping ros-kinetic-amcl ros-kinetic-position-controllers ros-kinetic-joint-trajectory-controller ros-kinetic-moveit-visual-tools ros-kinetic-moveit-ros-planning-interface ros-kinetic-ros-control ros-kinetic-ros-controllers ros-kinetic-global-planner ros-kinetic-gazebo-ros-control
+        sudo apt-get install ros-kinetic-velocity-controllers ros-kinetic-twist-mux ros-kinetic-diff-drive-controller ros-kinetic-costmap-* ros-kinetic-moveit ros-kinetic-moveit-core ros-kinetic-teb-local-planner ros-kinetic-move-base ros-kinetic-moveit-kinematics ros-kinetic-robot-localization ros-kinetic-combined-robot-hw ros-kinetic-joint-limits-interface ros-kinetic-gmapping ros-kinetic-amcl ros-kinetic-position-controllers ros-kinetic-joint-trajectory-controller ros-kinetic-moveit-visual-tools ros-kinetic-moveit-ros-planning-interface ros-kinetic-ros-control ros-kinetic-ros-controllers ros-kinetic-global-planner ros-kinetic-gazebo-ros-control
         sudo apt-get install ros-kinetic-catkin python-catkin-tools
 	
 	# Environment Setup
@@ -45,7 +45,7 @@ if [ "`lsb_release -cs`" = 'bionic' ]; then
 	sudo apt-get install ros-melodic-joint-state*
 	sudo apt-get install ros-melodic-combined-robot-hw
 	sudo apt-get install ros-melodic-control-* ros-melodic-controller-* ros-melodic-effort-controllers ros-melodic-position-controllers	
-        sudo apt-get install ros-melodic-velocity-controllers ros-melodic-twist-mux ros-melodic-diff-drive-controller ros-melodic-costmap-prohibition-layer ros-melodic-moveit ros-melodic-moveit-core ros-melodic-teb-local-planner ros-melodic-move-base ros-melodic-moveit-kinematics ros-melodic-robot-localization ros-melodic-combined-robot-hw ros-melodic-joint-limits-interface ros-melodic-gmapping ros-melodic-amcl ros-melodic-position-controllers ros-melodic-joint-trajectory-controller ros-melodic-moveit-visual-tools ros-melodic-moveit-ros-planning-interface ros-melodic-ros-control ros-melodic-ros-controllers ros-melodic-global-planner ros-melodic-gazebo-ros-control
+        sudo apt-get install ros-melodic-velocity-controllers ros-melodic-twist-mux ros-melodic-diff-drive-controller ros-melodic-costmap-* ros-melodic-moveit ros-melodic-moveit-core ros-melodic-teb-local-planner ros-melodic-move-base ros-melodic-moveit-kinematics ros-melodic-robot-localization ros-melodic-combined-robot-hw ros-melodic-joint-limits-interface ros-melodic-gmapping ros-melodic-amcl ros-melodic-position-controllers ros-melodic-joint-trajectory-controller ros-melodic-moveit-visual-tools ros-melodic-moveit-ros-planning-interface ros-melodic-ros-control ros-melodic-ros-controllers ros-melodic-global-planner ros-melodic-gazebo-ros-control
         sudo apt-get install ros-melodic-catkin
 	
 	# Environment Setup
@@ -61,7 +61,7 @@ if [ "`lsb_release -cs`" = 'focal' ]; then
 	sudo apt-get install ros-noetic-joint-state*
 	sudo apt-get install ros-noetic-combined-robot-hw
 	sudo apt-get install ros-noetic-control-* ros-noetic-controller-* ros-noetic-effort-controllers ros-noetic-position-controllers	
-        sudo apt-get install ros-noetic-velocity-controllers ros-noetic-twist-mux ros-noetic-diff-drive-controller ros-noetic-costmap-prohibition-layer ros-noetic-moveit ros-noetic-moveit-core ros-noetic-teb-local-planner ros-noetic-move-base ros-noetic-moveit-kinematics ros-noetic-robot-localization ros-noetic-combined-robot-hw ros-noetic-joint-limits-interface ros-noetic-gmapping ros-noetic-amcl ros-noetic-position-controllers ros-noetic-joint-trajectory-controller ros-noetic-moveit-visual-tools ros-noetic-moveit-ros-planning-interface ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-global-planner ros-noetic-gazebo-ros-control
+        sudo apt-get install ros-noetic-velocity-controllers ros-noetic-twist-mux ros-noetic-diff-drive-controller ros-noetic-costmap-* ros-noetic-moveit ros-noetic-moveit-core ros-noetic-teb-local-planner ros-noetic-move-base ros-noetic-moveit-kinematics ros-noetic-robot-localization ros-noetic-combined-robot-hw ros-noetic-joint-limits-interface ros-noetic-gmapping ros-noetic-amcl ros-noetic-position-controllers ros-noetic-joint-trajectory-controller ros-noetic-moveit-visual-tools ros-noetic-moveit-ros-planning-interface ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-global-planner ros-noetic-gazebo-ros-control
         sudo apt-get install ros-noetic-catkin
 
         # Environment Setup
