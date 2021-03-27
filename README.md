@@ -94,5 +94,10 @@ sudo ubuntu-drivers autoinstall
 
 # Installing VRviz Drivers (Ubuntu 18.04 LTS)
 ```bash
-
+> sudo apt-get install libglew-dev libassimp-dev
+> sudo add-apt-repository multiverse
+> sudo apt install steam
+> sudo apt install steam-devices
+> sudo apt install libvulkan1
+> steam
 ```
