@@ -64,7 +64,7 @@ sudo rosdep init
 rosdep update
 ```
 
-For python3 (in noetic):
+For python3 (in melodic, noetic):
 ```bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo rosdep init
