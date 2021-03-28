@@ -76,6 +76,15 @@ rosdep update
 ```bash
 sudo apt install gimp inkscape openshot handbrake
 ```
+# Installing PCL
+For kinetic, melodic:
+```bash
+```
+
+For noetic:
+```bash
+sudo apt install ros-noetic-perception-pcl
+```
 
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
 ```bash
