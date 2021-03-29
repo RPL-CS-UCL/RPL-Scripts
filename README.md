@@ -87,7 +87,7 @@ For noetic:
 sudo apt install ros-noetic-perception-pcl ros-noetic-pcl-*
 sudo apt install ros-noetic-cv-bridge
 sudo apt install ros-noetic-openni2-*
-
+sudo apt-get install ros-noetic-tf2-tools
 ```
 
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
