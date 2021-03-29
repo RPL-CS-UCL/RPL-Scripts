@@ -84,7 +84,10 @@ For kinetic, melodic:
 
 For noetic:
 ```bash
-sudo apt install ros-noetic-perception-pcl ros-noetic-pcl-* ros-noetic-cv-bridge
+sudo apt install ros-noetic-perception-pcl ros-noetic-pcl-*
+sudo apt install ros-noetic-cv-bridge
+sudo apt install ros-noetic-openni2-*
+
 ```
 
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
