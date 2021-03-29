@@ -48,6 +48,7 @@ cd scripts
 sudo chmod u+x basic_setup.sh
 ./basic_setup.sh
 ```
+* for noetic, there is a crash.  Run > sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
 
 8. Add those, after adding your ROS version (kinetic,melodic) into your **.bashrc** file (thus updating your ENV variables) and restart the terminal (or `source ~/.bashrc`).  Replace ROS_VERSION with either [kinetic, melodic, noetic] depending on which version you installed:
 ```bash
