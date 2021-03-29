@@ -35,6 +35,9 @@ if [ "`lsb_release -cs`" = 'xenial' ]; then
 	# Environment Setup
         echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
+
+        # Dependencies for building packages
+        sudo apt install python-pip python-rosdep python-rosinstall python-rosinstall-generator python-wstool python-catkin-tools
 fi
 
 # Ubuntu 18.04LTS
@@ -51,6 +54,9 @@ if [ "`lsb_release -cs`" = 'bionic' ]; then
 	# Environment Setup
         echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
+
+        # Dependencies for building packages
+        sudo apt install python-pip python-rosdep python-rosinstall python-rosinstall-generator python-wstool python-catkin-tools
 fi
 
 # Ubuntu 20.04LTS
@@ -61,16 +67,19 @@ if [ "`lsb_release -cs`" = 'focal' ]; then
 	sudo apt-get install ros-noetic-joint-state*
 	sudo apt-get install ros-noetic-combined-robot-hw
 	sudo apt-get install ros-noetic-control-* ros-noetic-controller-* ros-noetic-effort-controllers ros-noetic-position-controllers	
-        sudo apt-get install ros-noetic-velocity-controllers ros-noetic-twist-mux ros-noetic-diff-drive-controller ros-noetic-costmap-* ros-noetic-moveit ros-noetic-moveit-core ros-noetic-teb-local-planner ros-noetic-move-base ros-noetic-moveit-kinematics ros-noetic-robot-localization ros-noetic-combined-robot-hw ros-noetic-joint-limits-interface ros-noetic-gmapping ros-noetic-amcl ros-noetic-position-controllers ros-noetic-joint-trajectory-controller ros-noetic-moveit-visual-tools ros-noetic-moveit-ros-planning-interface ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-global-planner ros-noetic-gazebo-ros-control
+        sudo apt-get install ros-noetic-velocity-controllers ros-noetic-diff-drive-controller ros-noetic-position-controllers ros-noetic-joint-trajectory-controller
+	sudo apt-get install ros-noetic-twist-mux ros-noetic-costmap-* ros-noetic-moveit ros-noetic-moveit-core ros-noetic-teb-local-planner ros-noetic-move-base ros-noetic-moveit-kinematics ros-noetic-robot-localization ros-noetic-combined-robot-hw ros-noetic-joint-limits-interface ros-noetic-gmapping ros-noetic-amcl ros-noetic-moveit-visual-tools ros-noetic-moveit-ros-planning-interface ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-global-planner ros-noetic-gazebo-ros-control
         sudo apt-get install ros-noetic-catkin
 
         # Environment Setup
         echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
+
+        # Dependencies for building packages
+        sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+	sudo apt install python3-catkin-tools python3-osrf-pycommon
 fi
 
-# Dependencies for building packages
-sudo apt install python-pip python-rosdep python-rosinstall python-rosinstall-generator python-wstool python-catkin-tools
 
 # Initialize rosdep
 sudo rosdep init
