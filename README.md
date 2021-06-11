@@ -93,6 +93,7 @@ sudo apt-get install ros-noetic-tf2-tools
 For kinetic, melodic:
 ```bash
 sudo apt-get install ros-melodic-realsense2-*
+sudo mv 99-realsense-libusb.rules /etc/udev/rules.d/
 ```
 
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
