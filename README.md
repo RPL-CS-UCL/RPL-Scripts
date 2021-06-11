@@ -89,6 +89,11 @@ sudo apt install ros-noetic-cv-bridge
 sudo apt install ros-noetic-openni2-*
 sudo apt-get install ros-noetic-tf2-tools
 ```
+# Installing RealSense
+For kinetic, melodic:
+```bash
+sudo apt-get install ros-melodic-realsense2-*
+```
 
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
 ```bash
