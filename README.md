@@ -17,8 +17,8 @@ sudo apt-get install git cmake cmake-curses-gui terminator vim net-tools
 
 2. Configure GIT, with your own credentials:
 ```bash
-git config --global user.name "Dimitrios Kanoulas"
-git config --global user.email "dimitrios.kanoulas@example.com"
+git config --global user.name "FirstName LastName"
+git config --global user.email "email@example.com"
 git config --global color.pager true
 git config --global color.ui auto
 ```
