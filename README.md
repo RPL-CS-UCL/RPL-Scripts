@@ -25,7 +25,7 @@ git config --global color.ui auto
 
 3. Create new SSH key (public/private rsa key pair), with your own credentials:
 ```bash
-ssh-keygen -t rsa -C "dimitrios.kanoulas@example.com"
+ssh-keygen -t rsa -C "email@example.com"
 ```
 
 4. Add RSA identity to the authentication agent:
