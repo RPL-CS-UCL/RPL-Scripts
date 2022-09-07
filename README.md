@@ -1,5 +1,5 @@
-# RPL scripts
-Commonly used scripts
+# RPL Scripts
+Commonly used scripts for new computers installed at the RPL lab.
 
 # Support
 > Note: The current version of Ubuntu used at RPL is 20.04LTS with ROS Noetic
@@ -7,6 +7,7 @@ Commonly used scripts
 - ROS Kinetic, Melodic, Noetic
 
 # Installation Instructions
+
 ## Basic Setup: git, cmake
 
 1. Install basic GIT and cmake packages:
