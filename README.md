@@ -84,6 +84,8 @@ rosdep update
 ```bash
 sudo apt install gimp inkscape openshot handbrake
 ```
+
+
 # Installing PCL/OpenCV
 For kinetic, melodic:
 ```bash
@@ -96,6 +98,8 @@ sudo apt install ros-noetic-cv-bridge
 sudo apt install ros-noetic-openni2-*
 sudo apt-get install ros-noetic-tf2-tools
 ```
+
+
 # Installing RealSense
 For kinetic, melodic:
 ```bash
@@ -103,7 +107,12 @@ sudo apt-get install ros-melodic-realsense2-*
 sudo mv 99-realsense-libusb.rules /etc/udev/rules.d/
 ```
 
+For noetic:
+```bash
+```
+
 # Installing WiFi Adapter (Brostrend AC1200 Realtek Semiconductor Corp.)
+For Ubuntu 18.04LTS:
 ```bash
 sudo apt update
 sudo apt install dkms bc git
@@ -113,13 +122,25 @@ sudo dkms install -m rtl88x2bu -v 5.3.1
 sudo modprobe 88x2bu
 ```
 
-# Installing NVIDIA Drivers (Ubuntu 18.04 LTS)
+For Ubuntu 18.04LTS:
+```bash
+```
+
+
+# Installing NVIDIA Drivers
+For Ubuntu 18.04LTS:
 ```bash
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 ```
 
+For Ubuntu 18.04LTS:
+```bash
+```
+
 # Installing VRviz Drivers (Ubuntu 18.04 LTS)
+
+For Ubuntu 18.04LTS:
 ```bash
 > sudo apt-get install libglew-dev libassimp-dev
 > sudo add-apt-repository multiverse
@@ -127,4 +148,8 @@ sudo ubuntu-drivers autoinstall
 > sudo apt install steam-devices
 > sudo apt install libvulkan1
 > steam
+```
+
+For Ubuntu 18.04LTS:
+```bash
 ```
