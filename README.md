@@ -45,7 +45,7 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
 7. Install the basic dependencies
 ```bash
-git clone https://github.com/rpl-as-ucl/scripts.git
+git clone https://github.com/rpl-as-ucl/RPL-Scripts.git
 cd scripts
 sudo chmod u+x basic_setup.sh
 ./basic_setup.sh
