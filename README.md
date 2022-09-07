@@ -43,14 +43,19 @@ parse_git_branch() {
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
+
 7. Install the basic dependencies
 ```bash
 git clone https://github.com/rpl-as-ucl/RPL-Scripts.git
-cd scripts
+cd RPL-Scripts
 sudo chmod u+x basic_setup.sh
 ./basic_setup.sh
 ```
-* for noetic, there is a crash.  Run > sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
+
+| For noetic, there is a crash.  Run:
+```bash
+> sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
+```
 
 8. Add those, after adding your ROS version (kinetic,melodic) into your **.bashrc** file (thus updating your ENV variables) and restart the terminal (or `source ~/.bashrc`).  Replace ROS_VERSION with either [kinetic, melodic, noetic] depending on which version you installed:
 ```bash
