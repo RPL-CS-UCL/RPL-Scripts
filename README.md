@@ -2,7 +2,7 @@
 Commonly used scripts
 
 # Support
-> Description: The current version of Ubuntu used at RPL is 20.04LTS with ROS Noetic
+> Note: The current version of Ubuntu used at RPL is 20.04LTS with ROS Noetic
 - Ubuntu 16.04LTS, 18.04LTS, 20.04LTS
 - ROS Kinetic, Melodic, Noetic
 
