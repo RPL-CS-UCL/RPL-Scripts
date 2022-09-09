@@ -122,7 +122,7 @@ sudo dkms install -m rtl88x2bu -v 5.3.1
 sudo modprobe 88x2bu
 ```
 
-For Ubuntu 18.04LTS:
+For Ubuntu 20.04LTS:
 ```bash
 ```
 
@@ -152,4 +152,16 @@ For Ubuntu 18.04LTS:
 
 For Ubuntu 18.04LTS:
 ```bash
+```
+
+# Installing Acrobar Reader
+For Ubuntu 22.04LTS:
+```bash
+> sudo apt update
+> sudo apt upgrade
+> wget -O ~/adobe.deb ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+> sudo dpkg --add-architecture i386
+> sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386 libgdk-pixbuf-xlib-2.0-0:i386
+> sudo dpkg -i ~/adobe.deb
+> acroread
 ```
