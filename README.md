@@ -183,5 +183,5 @@ If your version is R34 or newer, then put the following (which in total can take
 > sudo apt install nvidia-jetpack
 ```
 Your Jetson Orin developer kit is not setup with the latest Nvidia jetpack version. 
-for further information or clarification see [installation guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit "nvidia Orin getting started website").
+For further information or clarification see [installation guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit "nvidia Orin getting started website").
 
