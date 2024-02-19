@@ -165,3 +165,22 @@ For Ubuntu 22.04LTS:
 > sudo dpkg -i ~/adobe.deb
 > acroread
 ```
+# Setting up Nvidia Jetson Orin Developer Kit
+For ubuntu 20.04 ([installation guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit "nvidia Orin getting started website"))
+After having run through the Ubuntu setup, check your L4T version first to see if you have a unit flashed with older version of the BSP:
+```bash
+> cat /etc/nv_tegra_release
+```
+If L4T version is older than "# R34 (release), REVISION: 1.0 or ..." do:
+```bash
+> sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/common r34.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'
+> sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/t234 r34.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'
+```
+If your version is R34 or newer, then put the following (which in total can take up to an hour):
+```bash
+> sudo apt update
+> sudo apt dist-upgrade
+> sudo reboot
+> sudo apt install nvidia-jetpack
+```
+Your Jetson Orin developer kit is not setup with the latest Nvidia jetpack version. 
